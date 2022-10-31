@@ -1,6 +1,6 @@
 #!/bin/bash
 # installer for TOOLBAR
-# DO NOT FUCK WITH THIS SCRIPT
+# DO NOT EDIT THIS SCRIPT
 
 # color variables
 red="\e[0;91m"
