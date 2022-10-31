@@ -10,7 +10,7 @@ Network Scanner (In Development) \
 Directory Buster (In Development) \
 Subdomain Buster (In Development) \
 Encrypter (In Development) \
-Decrypter (In Development)\ 
+Decrypter (In Development) 
 
 **Credits** \
 SSGOrg - Files taken from Cryptex ( github.com /SSGOrg/Cryptex )
