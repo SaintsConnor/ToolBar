@@ -9,6 +9,7 @@ Port Scanner (In Development) \
 Network Scanner (In Development) \
 Directory Buster (In Development) \
 Subdomain Buster (In Development) \
+Discord Bot - Must be precoded (In Development) \
 Encrypter (In Development) \
 Decrypter (In Development) 
 
