@@ -2,17 +2,19 @@
 Single Python Project enabling quick infrastructure loading (SMB Servers, HTTP File Server, FTP, Webpage, NetScanner) and other useful tools for Red Teamers
 
 **Services** \
-CLI Menu (In development) \
+CLI Menu  \
 HTTP File Share (In development) \
 SMB File Share (In Development) \
 FTP File Share (In development) \
-Port Scanner (To be added to CLI Menu) \
+Port Scanner  \
 Network Scanner (In Development) \
 Directory Buster (In Development) \
 Subdomain Buster (In Development) \
 Discord Bot - Must be precoded (In Development) \
 Encrypter (In Development) \
-Decrypter (In Development) 
+Decrypter (In Development) \
+Auto Updater \
+Ability to start system via alias
 
 **Usage** \
 On a linux machine, please run ./install.sh after cloning the repository. Once this is done it will create a new alias called 'toolbar' which will quickly and easily start the CLI Menu. From there please follow on screen prompts. 
