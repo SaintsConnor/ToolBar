@@ -31,7 +31,6 @@ while choice != "quit":
   # Still In Development - print("8 - Discord bot hoster (Must be pre-coded)")
   # Still In Development - print("9 - Encoder")
   # Still In Development - print("10 - Decoder")
-  # Still In Development - print("11 - Update")
   choice = input("Please type the number of your associated module: ")
   
   if choice == "1" :
