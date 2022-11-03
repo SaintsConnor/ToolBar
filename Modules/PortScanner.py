@@ -1,7 +1,6 @@
 #!/bin/python3
 
-# ------- Notes -------
-# This program has not been optimised. This is a python experiment, if successful development will begin on a shell script equivalent that is more optimized. 
+# ------- Notes ------- 
 # Please contact Connor if any questions, details listed below
 
 # ------- Author Info -------
@@ -15,10 +14,7 @@ from datetime import datetime as dt
 import socket
 
 if len(sys.argv) == 2:
-  target = socket.gethostbyname(sys.argv[1]) # translates host to ipv4
-else:
-  print("Invalid number of args")
-  print("Syntax: python3 PortScanner.py [ip/hostname]")
+  target = socket.gethostbyname(input("Enter IP of target: ")]) # translates host to ipv4
 
 print("Scannning target: " + target)
 print("Time started: " + str(dt.now()))
