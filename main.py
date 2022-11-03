@@ -2,13 +2,18 @@
 #Author's: Connor
 
 # Import libraries
+import os
+import update
 
 # Global Variables
 choice = ""
 
 # Define Functions
+def Update_Script():
+  update.Update()
 
 # Main Scripts
+
 print("-"*10, "Toolbar", '-'*10)
 print("Your one stop shop for a variety of tools!")
 print("If any issues, please contact the development team.")
