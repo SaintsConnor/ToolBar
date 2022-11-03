@@ -31,7 +31,7 @@ class Update:
         return
 
     def updatePrompt(self):
-        ans=input(f'{Fore.YELLOW}>_ {Fore.CYAN}There is a new version of Cryptex availiable, do you want to update? (Y/n) :{Fore.WHITE} ')
+        ans=input(f'{Fore.YELLOW}>_ {Fore.CYAN}There is a new version of Toolbar availiable, do you want to update? (Y/n) :{Fore.WHITE} ')
         if 'n' in ans.lower():
             print(f'{Fore.YELLOW}Not updating{Fore.WHITE}')
             return False
@@ -44,8 +44,8 @@ class Update:
         return self.formatedOnlineVersion > self.formatedLocalVersion
 
     def getOnlineVersion(self):
-        user = 'SSGorg'
-        url = f'https://raw.githubusercontent.com/{user}/Cryptex/{self.branch}/version'
+        user = 'SaintsConnor'
+        url = f'https://raw.githubusercontent.com/{user}/ToolBar/{self.branch}/version'
         response = requests.get(url)
         self.onlineVersion = response.text.split('\n')[0]
 
