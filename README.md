@@ -4,7 +4,7 @@ Single Python Project enabling quick infrastructure loading (SMB Servers, HTTP F
 **Services** \
 CLI Menu  \
 HTTP File Share (In development) \
-SMB File Share (In Development) \
+SMB File Share - Linux Only, Must be able to run sudo 'python3' \
 FTP File Share (To be added) \
 Port Scanner  \
 Network Scanner (To be added) \
