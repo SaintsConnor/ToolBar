@@ -13,7 +13,7 @@ def Update_Script():
   update.Update()
 
 # Main Scripts
-
+Update_Script()
 print("-"*10, "Toolbar", '-'*10)
 print("Your one stop shop for a variety of tools!")
 print("If any issues, please contact the development team.")
@@ -31,7 +31,6 @@ while choice != "quit":
   # Still In Development - print("8 - Discord bot hoster (Must be pre-coded)")
   # Still In Development - print("9 - Encoder")
   # Still In Development - print("10 - Decoder")
-  print("11 - Update")
   choice = input("Please type the number of your associated module: ")
   
   if choice == "1" :
@@ -63,10 +62,6 @@ while choice != "quit":
   
   elif choice == "10" :
     print("This Feature has not been implemented.")
-  
-  elif choice == "11" :
-    Update_Script()
-  
     
   else :
     print("Invalid Selection.")
