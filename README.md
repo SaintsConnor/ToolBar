@@ -8,7 +8,7 @@ SMB File Share (In Development) \
 FTP File Share (In development) \
 Port Scanner  \
 Network Scanner (To be added) \
-Directory Buster (In Development) \
+Directory Buster (To be added) \
 Subdomain Buster (In Development) \
 Discord Bot - Must be precoded (In Development) \
 Encrypter (To be added) \
