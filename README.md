@@ -16,6 +16,11 @@ Decrypter (In Development) \
 Auto Updater \
 Ability to start system via alias
 
+**Encode/Decode Methods** \
+Base64 - Both \
+HTML - Both \
+Hex - Both
+
 **Usage** \
 On a linux machine, please run ./install.sh after cloning the repository. Once this is done it will create a new alias called 'toolbar' which will quickly and easily start the CLI Menu. From there please follow on screen prompts. 
 
