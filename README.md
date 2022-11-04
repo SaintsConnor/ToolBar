@@ -5,7 +5,7 @@ Single Python Project enabling quick infrastructure loading (SMB Servers, HTTP F
 CLI Menu  \
 HTTP File Share (In development) \
 SMB File Share (In Development) \
-FTP File Share (In development) \
+FTP File Share (To be added) \
 Port Scanner  \
 Network Scanner (To be added) \
 Directory Buster (To be added) \
