@@ -5,10 +5,10 @@ Single Python Project enabling quick infrastructure loading (SMB Servers, HTTP F
 CLI Menu  \
 HTTP Server \
 SMB File Share - Linux Only, Must be able to run sudo 'python3' \
-FTP File Share (To be added) \
+FTP File Share  \
 Port Scanner  \
-Network Scanner (To be added) \
-Directory Buster (To be added) \
+Network Scanner \
+Directory Buster \
 Subdomain Buster (In Development) \
 Discord Bot - Must be precoded (In Development) \
 Encrypter (To be added) \
