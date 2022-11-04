@@ -22,7 +22,7 @@ while choice != "quit":
   print("Please type the number for one of the following tools momentarily.")
   print("\n")
   print("1 - HTTP Server")
-  print("2 - SMB Server")
+  print("2 - SMB Server. Please note you must know sudo password, and be able to run sudo python3")
   print("3 - FTP Server")
   print("4 - Port Scanner (Coded in Python)")
   print("5 - Network Scanner")
@@ -37,7 +37,7 @@ while choice != "quit":
     os.system("python3 ./Modules/HTTP_Server.py")
     
   elif choice == "2" :
-    os.system("python3 ./Modules/SMB_Server.py")
+    os.system("sudo python3 ./Modules/SMB_Server.py")
     
   elif choice == "3" :
     os.system("python3 ./Modules/FTP_File.py")
