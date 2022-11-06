@@ -30,6 +30,6 @@ Please Note: The .bat file is currently under development and has not been verif
 If you are interested in helping the development or require any assistance, please either make an 'issue' or contact the current project manager on discord @ connor#2597
 
 **Credits** \
-SSGOrg - Files taken from Cryptex ( github.com/SSGOrg/Cryptex )
-ImpacketOrg - Credits for some code for SMB Server
+SSGOrg - Files taken from Cryptex ( github.com/SSGOrg/Cryptex ) \
+ImpacketOrg - Credits for some code for SMB Server \
 Various Creators - PrivEsc default scripts (Available on all sharing, including HTTP)
