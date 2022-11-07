@@ -1,11 +1,11 @@
-#The full list of supported algorithms:
+**The full list of supported algorithms:**
 
-**In Development**
+*In Development*
 
-**Beta** \
+*Beta* \
 MD5
 
-**Fully Released** \
+*Fully Released* \
 Base64 \
 HTML \
 Hex
