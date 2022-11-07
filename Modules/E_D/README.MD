@@ -2,10 +2,10 @@
 
 **In Development**
 
-**Beta**
+**Beta** \
 MD5
 
-**Fully Released**
-Base64
-HTML
+**Fully Released** \
+Base64 \
+HTML \
 Hex
