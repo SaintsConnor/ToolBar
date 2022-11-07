@@ -41,7 +41,7 @@ while choice != "quit":
   elif choice == 'Search':
     search = input("Enter algorithm to check: ")
     if search in algorithms:
-      execcommand2berun = "python3 ./Encode/" + search
+      execcommand2berun = "python3 ./Encode/" + search + ".py"
       os.system(execcommand2berun)
     else :
       print("Unfortunately, we do not support that algorithm yet. Please talk with our development team to see if we can this added.")
