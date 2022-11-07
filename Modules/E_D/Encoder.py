@@ -1,5 +1,8 @@
-#ToolBar Script
+#Encoder Script
 #Author's: Connor
+
+#Lists
+algorithms = ['MD5', 'Base64', 'Hex', 'HTML']
 
 # Import libraries
 import os
@@ -14,16 +17,35 @@ def Update_Script():
 
 # Main Scripts
 Update_Script()
-print("-"*10, "Toolbar", '-'*10)
-print("Your one stop shop for a variety of tools!")
 print("If any issues, please contact the development team.")
 while choice != "quit":
   print("-"*10, "Main Menu", '-'*10)
   print("Please type the number for one of the following algorithms or type search momentarily.")
   print("\n")
-
-    
+  print("1 - MD5")
+  print("2 - Base64")
+  print("3 - Hex")
+  print("4 - HTML")
+  print("Search for others")
+   
+  choice = input("Enter your algorithm number or type 'Search': ")
+  
+  if choice == '1':
+    os.system('python3 ./Encode/MD5.py')
+  elif choice == '2':
+    os.system('python3 ./Encode/Base64.py')
+  elif choice == '3':
+    os.system('python3 ./Encode/Hex.py')
+  elif choice == '4': 
+    os.system('python3 ./Encode/HTML.py')
+  elif choice == 'Search':
+    search = input("Enter algorithm to check: ")
+    if search in algorithms:
+      execcommand2berun = "python3 ./Encode/" + search
+      os.system(execcommand2berun)
+    else :
+      print("Unfortunately, we do not support that algorithm yet. Please talk with our development team to see if we can this added.")
+        
   else :
     print("Invalid Selection.")
 
-print("Thank you for using toolbar.")
