@@ -11,8 +11,8 @@ Network Scanner \
 Directory Buster \
 Subdomain Buster (In Development) \
 Discord Bot - Must be precoded (In Development) \
-Encrypter (To be added) \
-Decrypter (To be added) \
+Encrypter  \
+Decrypter \
 Auto Updater \
 Ability to start system via alias
 
