@@ -14,8 +14,6 @@ def Update_Script():
 
 # Main Scripts
 Update_Script()
-print("-"*10, "Toolbar", '-'*10)
-print("Your one stop shop for a variety of tools!")
 print("If any issues, please contact the development team.")
 while choice != "quit":
   print("-"*10, "Main Menu", '-'*10)
