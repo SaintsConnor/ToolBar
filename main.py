@@ -29,8 +29,8 @@ while choice != "quit":
   print("6 - Dictionary Buster")
   # Still In Development - print("7 - Subdomain Buster")
   # Still In Development - print("8 - Discord bot hoster (Must be pre-coded)")
-  # Still In Development - print("9 - Encoder")
-  # Still In Development - print("10 - Decoder")
+  print("9 - Encoder")
+  print("10 - Decoder")
   choice = input("Please type the number of your associated module: ")
   
   if choice == "1" :
@@ -58,10 +58,10 @@ while choice != "quit":
     print("This Feature has not been implemented.")
   
   elif choice == "9" :
-    print("This Feature has not been implemented.")
+    os.system("python3 ./Modules/E_D/Encoder.py")
   
   elif choice == "10" :
-    print("This Feature has not been implemented.")
+    os.system("python3 ./Modules/E_D/Decoder.py")
     
   else :
     print("Invalid Selection.")
