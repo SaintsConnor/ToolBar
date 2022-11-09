@@ -13,8 +13,8 @@ import sys
 from datetime import datetime as dt
 import socket
 
-if len(sys.argv) == 2:
-  target = socket.gethostbyname(input("Enter IP of target: ")]) # translates host to ipv4
+
+target = socket.gethostbyname(input("Enter IP of target: ")) # translates host to ipv4
 
 print("Scannning target: " + target)
 print("Time started: " + str(dt.now()))
