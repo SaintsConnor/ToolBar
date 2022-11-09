@@ -9,6 +9,7 @@ FTP File Share  \
 Port Scanner  \
 Network Scanner \
 Directory Buster \
+VPN Booter (Linux) - VPNs must be installed in ~/VPNs/ \
 Subdomain Buster (In Development) \
 Discord Bot - Must be precoded (In Development) \
 Encrypter  \
