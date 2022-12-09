@@ -29,6 +29,7 @@ while choice != "quit":
   # Still In Development - print("8 - Discord bot hoster (Must be pre-coded)")
   print("9 - Encoder")
   print("10 - Decoder")
+  print("11 - Tools Installer")
   choice = input("Please type the number of your associated module: ")
   
   if choice == "1" :
@@ -60,6 +61,9 @@ while choice != "quit":
   
   elif choice == "10" :
     os.system("python3 ./Modules/E_D/Decoder.py")
+    
+  elif choice == "11":
+    os.system("python3 ./Modules/githubcloner.py")
     
   else :
     print("Invalid Selection.")
