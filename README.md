@@ -14,6 +14,7 @@ Discord Bot - Must be precoded (In Development) \
 Encrypter  \
 Decrypter \
 Auto Updater \
+Tools/Github Cloner \
 Ability to start system via alias
 
 **Usage** \
