@@ -25,7 +25,7 @@ while choice != "quit":
   print("4 - Port Scanner (Coded in Python)")
   print("5 - Network Scanner")
   print("6 - Dictionary Buster")
-  # Still In Development - print("7 - Subdomain Buster")
+  print("7 - Subdomain Buster")
   # Still In Development - print("8 - Discord bot hoster (Must be pre-coded)")
   print("9 - Encoder")
   print("10 - Decoder")
@@ -51,7 +51,7 @@ while choice != "quit":
     os.system("python3 ./Modules/Busters/dictionary.py")
   
   elif choice == "7" :
-    print("This Feature has not been implemented.")
+    os.system("python3 ./Modules/Busters/DNSChecker.py")
   
   elif choice == "8" :
     print("This Feature has not been implemented.")
