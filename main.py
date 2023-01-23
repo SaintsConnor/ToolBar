@@ -21,7 +21,7 @@ def Update_Script():
         print("Ok! Feel free to update at any time.")
 
 # Main Scripts
-Update_Script()
+# Update_Script() - Currently in Development
 print("If any issues, please contact the development team.")
 while choice != "quit":
   print("-"*10, "Main Menu", '-'*10)
