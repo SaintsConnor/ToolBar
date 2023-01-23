@@ -18,9 +18,9 @@ Tools/Github Cloner \
 Ability to start system via alias
 
 **Usage** \
-On a linux machine, please run ./install.sh after cloning the repository. Once this is done it will create a new alias called 'toolbar' which will quickly and easily start the CLI Menu. From there please follow on screen prompts. 
+To install this tool, please use ```pip install ToolBar```
 
-Please Note: The .bat file is currently under development and has not been verified to work. 
+Disclaimer: This script would also prompt you if any updates are released. 
 
 **Contact and Helping develop** \
 If you are interested in helping the development or require any assistance, please either make an 'issue' or contact the current project manager on discord @ connor#2597
