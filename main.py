@@ -3,14 +3,22 @@
 
 # Import libraries
 import os
-import update
 
 # Global Variables
 choice = ""
 
 # Define Functions
 def Update_Script():
-  update.Update()
+  version = 0.51
+  import toolbar
+  newestversion = toolbar.__version__
+
+  if newestversion > version:
+     choice = input("New update available! Would you like to update (Y/N)")
+     if choice == "Y":
+          os.system("pip install --update toolbar")
+     else :
+        print("Ok! Feel free to update at any time.")
 
 # Main Scripts
 Update_Script()
