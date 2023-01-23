@@ -6,7 +6,8 @@ setup(
       description='A program for red teamers',
       author='SaintsConnor',
       author_email='venomsneakymc@gmail.com',
+      license='MIT',
       packages=['ToolBar'],  #same as name
-      install_requires=['os'],
+      install_requires=['os', 'pipenv',],
 
 )
