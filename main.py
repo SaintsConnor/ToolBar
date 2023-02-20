@@ -3,17 +3,25 @@
 
 # Import libraries
 import os
-import update
 
 # Global Variables
 choice = ""
 
 # Define Functions
 def Update_Script():
-  update.Update()
+  version = 0.51
+  import toolbar
+  newestversion = toolbar.__version__
+
+  if newestversion > version:
+     choice = input("New update available! Would you like to update (Y/N)")
+     if choice == "Y":
+          os.system("pip install --update toolbar")
+     else :
+        print("Ok! Feel free to update at any time.")
 
 # Main Scripts
-Update_Script()
+# Update_Script() - Currently in Development
 print("If any issues, please contact the development team.")
 while choice != "quit":
   print("-"*10, "Main Menu", '-'*10)
@@ -25,10 +33,11 @@ while choice != "quit":
   print("4 - Port Scanner (Coded in Python)")
   print("5 - Network Scanner")
   print("6 - Dictionary Buster")
-  # Still In Development - print("7 - Subdomain Buster")
+  print("7 - Subdomain Buster")
   # Still In Development - print("8 - Discord bot hoster (Must be pre-coded)")
   print("9 - Encoder")
   print("10 - Decoder")
+  print("11 - Tools Installer")
   choice = input("Please type the number of your associated module: ")
   
   if choice == "1" :
@@ -50,7 +59,7 @@ while choice != "quit":
     os.system("python3 ./Modules/Busters/dictionary.py")
   
   elif choice == "7" :
-    print("This Feature has not been implemented.")
+    os.system("python3 ./Modules/Busters/DNSChecker.py")
   
   elif choice == "8" :
     print("This Feature has not been implemented.")
@@ -60,6 +69,9 @@ while choice != "quit":
   
   elif choice == "10" :
     os.system("python3 ./Modules/E_D/Decoder.py")
+    
+  elif choice == "11":
+    os.system("python3 ./Modules/githubcloner.py")
     
   else :
     print("Invalid Selection.")
